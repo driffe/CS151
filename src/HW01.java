@@ -1,6 +1,8 @@
 public class HW01 {
+    // Instance variable and initialize it
     public int number;
 
+    //Constructor
     public HW01() {
 
     }
