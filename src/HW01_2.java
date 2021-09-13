@@ -4,7 +4,7 @@
  */
 public class HW01_2 {
     public static void main(String[] args) {
-        HW01 hw = new HW01(); // Create the object of HW01
+        HW01 hw = new HW01(20); // Create the object of HW01 and give 20 to instance variable
 
         int hwNum = hw.number;
 

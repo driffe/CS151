@@ -3,13 +3,14 @@
  * Class contains instance variable and constructor
  */
 public class HW01 {
-    // Instance variable and initialize it
+    // Instance variable
     public int number;
 
-    //Constructor
-    public HW01() {
-
+    //Constructor and initialize the variable
+    public HW01(int aNumber) {
+        number = aNumber;
     }
+
     public static void main(String[] args) {
 
     }
