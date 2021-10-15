@@ -2,8 +2,8 @@ package HW02;
 
 import java.util.ArrayList;
 
-/**
- * Class that provides heTestlper functions for ArrayList
+/*
+ * Class that provides helper functions for ArrayList
  */
 public class ArrayListUtils {
 
@@ -30,6 +30,7 @@ public class ArrayListUtils {
      */
     public static int mean(ArrayList<Integer> arr) {
         // TODO: implement this method on a separate branch. Should return the average of elements in the array list
+
         int resultAverage = 0;
         int sum = 0;
         int size = arr.size();
@@ -42,3 +43,4 @@ public class ArrayListUtils {
         return resultAverage;
     }
 }
+

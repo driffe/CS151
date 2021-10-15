@@ -17,6 +17,7 @@ public class ArrayListUtilsTest {
         testArrSum = ArrayListUtils.sum(arr01);
         assertEquals(true, testArrSum == 6);
     }
+
     @Test
     public void testAverage() {
         ArrayListUtils arrayListUtils = new ArrayListUtils();
@@ -30,3 +31,6 @@ public class ArrayListUtilsTest {
     }
 
 }
+
+}
+
