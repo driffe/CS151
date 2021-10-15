@@ -15,6 +15,6 @@ public class ArrayListUtilsTest {
         arr01.add(2);
         arr01.add(3);
         testArrSum = ArrayListUtils.sum(arr01);
-        assertEquals(true, arrayListUtils.sum(arr01) == testArrSum);
+        assertEquals(true, testArrSum == 6);
     }
 }
